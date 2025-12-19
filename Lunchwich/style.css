@@ -1,0 +1,424 @@
+body {
+    background-color: rgb(212, 255, 234);
+}
+
+h3,
+p,
+h1 {
+    color: rgb(1, 61, 1);
+}
+
+.h1ind {
+    position: relative;
+    top: 10px;
+    background-color: rgb(164, 247, 164);
+    border: 1, rgb(164, 247, 164), solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.false {
+    border: rgb(23, 82, 20) 3px solid;
+    border-radius: 8px;
+}
+
+.false,
+.true {
+
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.textbox {
+    background-color: rgb(170, 255, 170);
+    border: 1px, solid, rgb(0, 155, 0);
+    border-radius: 10px;
+    margin-bottom: -34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.false:hover,
+.true:hover {
+    background-color: rgb(105, 155, 105);
+}
+
+.in {
+    background-color: rgb(198, 255, 198);
+    border-radius: 8px;
+}
+
+.true {
+    border: rgb(12, 231, 0) 3px solid;
+    border-radius: 8px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 450px;
+    height: 400px;
+    overflow-y: auto;
+    padding: 30px;
+    padding-bottom: 90px;
+    border: 10px solid rgb(164, 247, 164);
+    border-radius: 10px;
+    background-color: rgb(164, 247, 164);
+    overflow-x: hidden;
+}
+
+
+.bigbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+h2 {
+    background-color: rgb(198, 255, 198);
+    position: relative;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    top: 10px;
+    margin: 0px;
+}
+
+table {
+    background-color: rgb(164, 247, 164);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+td {
+    height: 40px;
+    width: 10px;
+    border-bottom: 2px solid rgb(0, 175, 0);
+
+}
+
+.chosenimg {
+    height: 50px;
+    width: 50px;
+}
+
+.cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.h1two {
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.side {
+    position: relative;
+    right: 20px;
+}
+
+.test {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.but {
+    background-color: rgb(164, 247, 164);
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(1, 61, 1);
+
+    border: none;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+
+}
+
+.but:hover {
+    background-color: rgb(114, 179, 114);
+    cursor: pointer;
+}
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+}
+
+.final {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(215, 255, 215);
+    border-radius: 10px;
+    font-size: 10px;
+    margin: 15px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.recepten {
+    background-color: rgb(164, 247, 164);
+    border-radius: 10px;
+    ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 600px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.small {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.smallcont {
+    display: flex;
+}
+
+.good {
+    border: solid 4px rgb(137, 255, 35);
+}
+
+.mid {
+    border: solid 4px rgb(255, 220, 64);
+
+}
+
+.bad {
+    border: solid 4px rgb(255, 112, 10);
+
+}
+
+.am {
+    font-weight: bolder;
+    background-color: rgb(171, 255, 171);
+    padding: 3px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+}
+
+#lastpage {
+    height: 250px;
+    position: relative;
+    top: 240px;
+    background-color: rgb(164, 247, 164);
+    border-radius: 15px;
+    border: hidden;
+    color: rgb(1, 61, 1);
+    left: 30px;
+    font-weight: bold;
+    width: 70px;
+}
+
+#lastpage:hover {
+    background-color: rgb(114, 179, 114);
+    cursor: pointer;
+}
+
+.mis {
+    color: rgb(1, 61, 1);
+    font-weight: bolder;
+}
+
+.wid {
+    background-color: rgb(164, 247, 164);
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(1, 61, 1);
+    font-weight: bolder;
+    height: 250px;
+}
+
+.widin {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.mar1,
+.mar2,
+.mar3 {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: hidden;
+    font-weight: bolder;
+
+}
+
+.mar1 {
+    background-color: rgb(137, 255, 35);
+    ;
+}
+
+.mar2 {
+    margin-left: 36.5px;
+    background-color: rgb(255, 220, 64);
+}
+
+.mar3 {
+    margin-left: 36.5px;
+    background-color: rgb(255, 112, 10);
+}
+
+.widin2 {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.home {
+    height: 30px;
+    width: 30px;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.desc {
+    position: relative;
+    bottom: 15px;
+}
+
+input,
+textarea, a {
+    border: hidden;
+    background-color: rgb(186, 255, 186);
+    margin-bottom: 15px;
+    padding:2px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    height: 100px;
+}
+
+.fullform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.addimg {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(160, 240, 160);
+
+}
+
+.contadd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 450px;
+    height: 200px;
+    overflow-y: auto;
+    padding: 30px;
+    padding-bottom: 90px;
+    border-radius: 10px;
+    background-color: rgb(186, 255, 186);
+
+}
+
+.textboxadd {
+    background-color: rgb(160, 240, 160);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    gap: 10px;
+
+}
+
+
+
+.falseadd,
+.trueadd {
+
+    width: 70px;
+    height: 70px;
+}
+
+.textboxadd:hover {
+    background-color: rgb(117, 175, 117);
+    cursor:pointer;
+}
+
+.textboxadd:hover img.in {
+    background-color: rgb(117, 175, 117);
+}
+
+.trueadd {
+    border: rgb(12, 231, 0) 3px solid;
+    border-radius: 8px;
+}
+
+.falseadd { 
+        border: rgb(160, 240, 160);
+    border-radius: 8px;
+
+}
+
+.sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 61, 1);
+}
+
+.title {
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 0px;
+}
