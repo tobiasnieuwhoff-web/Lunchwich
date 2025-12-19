@@ -7,11 +7,15 @@ Het idee met deze webesite is dat je een interactieve menu krijgt waarbij je ing
 Na dat je al je ingredienten hebt geselecteerd, geeft de website recepten terug waarbij je kan filteren op hoe veel ingredienten je mist.
 
 
+
+
 <img width="597" height="369" alt="image" src="https://github.com/user-attachments/assets/52a3dd0d-1ec3-4cc4-920d-f874b970a4f7" />
-In deze foto is "off by none" als in het toont alleen recepten waarvan je de ingredienten hebt.
+
+In deze foto hier boven is "off by none" als in het toont alleen recepten waarvan je de ingredienten hebt.
 
 
 <img width="678" height="401" alt="image" src="https://github.com/user-attachments/assets/aab92320-5bc5-452a-9b06-9d6a18bc25cb" />
+
 In deze foto heeft iemand "Off by 2" geklikt waarbij het nu ook recepten toont waarvan je 2 ingredienten mist. 
 
 Dit heb ik toegevoegd omdat ik anders super veel recepten moest toevoegen dus ik had er een brede filter optie toegevoegd zodat je meer recepten ziet.
