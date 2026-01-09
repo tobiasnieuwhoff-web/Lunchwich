@@ -35,4 +35,4 @@ SQL
 
 De belangrijkste technieken die ik had gebruikt waren SQL en Javascript HTML DOM.
 
-
+Het meeste ging goed met coderen maar er waren wel twee dingen waar ik vast liep. Het eerste was uitvogelen hoe ik een array die uit een database naar php was omzeget kon vergelijken met een array in javascript. Uit eindelijk had ik een hidden form gebruikt om de javascript array om te zetten naar php. Het tweede probleem waar ik mee zat was de styling. Front end is al mijn zwakkere punt en css was vreeselijk. Gelukkig had ik wel al deels HTML/CSS Advanced gedaan dus het css gedeelte werkte uit eindelijk wel uit.
